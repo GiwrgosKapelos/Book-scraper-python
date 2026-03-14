@@ -23,8 +23,8 @@ A Python-based web scraper that extracts book data from `books.toscrape.com`. It
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/GiwrgosKapelos/book-scraper-python.git
-   cd book-scraper-python
+   git clone https://github.com/GiwrgosKapelos/Book-scraper-python.git
+   cd Book-scraper-python
    ```
 2. **Install dependencies:**
    ```bash
