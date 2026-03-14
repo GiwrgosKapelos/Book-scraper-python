@@ -5,7 +5,8 @@ A Python-based web scraper that extracts book data from `books.toscrape.com`. It
 ## ✨ Features
 
 - **Multi-page Scraping:** Iterates through the first 5 pages of the catalog.
-- **Data Transformation:** \* Converts text ratings (e.g., "Three") into numeric values (3).
+- **Data Transformation:**
+  - Converts text ratings (e.g., "Three") into numeric values (3).
   - Cleans price strings and converts them to floats for analysis.
 - **Dual Export:** Saves data in both **CSV** (UTF-8) and **Excel (.xlsx)** formats.
 - **Ethical Scraping:** Includes a 1-second delay between requests to respect server resources.
@@ -26,16 +27,14 @@ A Python-based web scraper that extracts book data from `books.toscrape.com`. It
    cd book-scraper-python
    ```
 2. **Install dependencies:**
-
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. **Run the script:**
-
-```bash
-python scraper.py
-```
+   ```bash
+   python scraper.py
+   ```
 
 ## 📊 Sample Output
 
